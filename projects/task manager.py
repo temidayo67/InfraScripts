@@ -1,5 +1,3 @@
-''' A command-line tool to manage tasks with associated costs and track budgets by category, 
-similar to your PersonAccount class but expanded for task management.'''
 class Task:
     category= "General"  # Default category for all tasks
     def __init__(self, description, cost):
@@ -82,4 +80,5 @@ def main():
 if __name__ == "__main__":
     desc, cost = "Sample Task", 50.0
     print(f"Starting with {desc}: ${cost}")
+
     main()
