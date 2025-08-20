@@ -44,4 +44,5 @@ Enter choice (1-5):
 This project is open source and free to use.
 
 ## Author
-- Inventory System by GitHub Copilot
+- Inventory System by Temidayo67
+
