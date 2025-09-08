@@ -1,0 +1,38 @@
+# File Organizer & Log Analyzer
+
+This Python script organizes files in the current directory by their extension, moving them into categorized folders (e.g., txt, jpg, pdf, video, etc.) inside a base directory called `files`. It also provides log file analysis and a simple menu-driven interface for user interaction.
+
+## Features
+- Organizes files by extension into folders (e.g., txt, jpg, pdf, video, other).
+- Groups video files (mp4, mkv) into a single `video` folder.
+- Avoids overwriting files by appending a counter to duplicate filenames.
+- Analyzes `.log` files in the `files/log` folder for errors and timestamps.
+- Displays organized file statistics and lists files.
+- User-friendly menu interface for all operations.
+- Does **not** delete any files.
+
+## Usage
+1. Place the script in the directory you want to organize.
+2. Run the script using Python 3:
+   ```
+   python file_organizer_log_analyzer.py
+   ```
+3. Follow the on-screen menu to organize files, analyze logs, list files, or view file details.
+
+## Menu Options
+- **1: Organize Files** – Move files into categorized folders by extension.
+- **2: Analyze Logs** – Scan `.log` files in the `files/log` folder for errors and timestamps.
+- **3: List Files** – Show a directory listing of organized files.
+- **4: View Files** – Display tracked files and their sizes.
+- **5: Exit** – Quit the program.
+
+## Notes
+- The script only moves files; it does not delete or overwrite existing files.
+- You can change the working directory by uncommenting and editing the `os.chdir()` line at the top of the script.
+- Supported extensions include: txt, jpg, png, pdf, docx, xlsx, xls, rar, zip, exe, mp4, mkv (as video), and others.
+
+## Requirements
+- Python 3.x
+
+## License
+This script is provided as-is for personal or educational use.
